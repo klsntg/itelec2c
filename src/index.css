@@ -1,0 +1,116 @@
+
+:root {
+  font-family: Red Hat Display, system-ui, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 11px;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #ffff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-y: auto;
+  max-height: 20vh; /* Set a maximum height to make it scrollable */
+
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+p {
+  margin-top: 5px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  color:#213547;
+}
+
+.cvCategory {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: bold;
+  margin-top: 75px;
+  margin-left: 20px;
+}
+
+.cvCategory2, .cvCategory3, .cvCategory4 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: bold;
+  margin-top: 3px;
+  margin-left: 20px;
+}
+
+h2 {
+  font-size: 13px;
+  margin-left: 20px;
+  margin-top: -2px;
+  margin-bottom: -10px;
+  font-weight:normal;
+}
+
+h3 {
+  font-size: 11.5px;
+  margin-left: 20px;
+  margin-top: 13px;
+  margin-bottom: -10px;
+  font-weight:normal;
+}
+
+.name1 {
+  font-size: 80px;
+  line-height: 1.1;
+  margin-left: 90px;
+  margin-bottom: 20px;
+  margin-top: -80px;
+  color:#213547;
+}
+
+.bionote {
+  font-size: 16px;
+  margin-left: 32px;
+  margin-right: 850px;
+  text-align: center;
+  margin-bottom:10px;
+}
+
+.cvContainer {
+  width: 1000px;
+  height:1000px;
+  max-height: 900vh; /* Set a maximum height to make it scrollable */
+  overflow-y: auto; /* Enable vertical scrolling if content exceeds the height */
+  background: linear-gradient(to bottom, #673ab7,#ec407a);
+  margin-top: -765px;
+  margin-left: 750px;
+  position: fixed;
+
+}
+
+img{
+  margin-left:150px;
+  margin-top:-50px;
+}
+
+.socialMedia{
+  margin-left:130px;
+  margin-top:40px;
+  display: flex;
+}
+
+.google, .linkedin {
+  margin-right: -120px;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+      color: #ffff;
+      background-color: #fff;
+  }
+}
